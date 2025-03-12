@@ -6,7 +6,6 @@ class HeartFunc:
     # Constructor for x and y values
     def __init__(self):
         self.x = np.linspace(-20, 20, 1000)
-        self.y = np.linspace(-20, 20, 1000)
     # Function to calculate the x and y values
     def heartFunction(self):
         plotX = 16*np.sin(self.x)**3
